@@ -1,0 +1,22 @@
+{
+  "name": "editor-imagem-phaton",
+  "version": "1.0.0",
+  "description": "Editor de Imagem Profissional - Remoção de fundo, retoque e finalização",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Build complete - static files ready'"
+  },
+  "keywords": [
+    "image-editor",
+    "background-removal",
+    "canvas",
+    "image-processing",
+    "web-app"
+  ],
+  "author": "Phaton",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
