@@ -4,8 +4,7 @@
   "description": "Editor de Imagem Profissional - Remoção de fundo, retoque e finalização",
   "main": "index.html",
   "scripts": {
-    "start": "serve .",
-    "build": "echo 'Build complete - static files ready'"
+    "start": "serve ."
   },
   "keywords": [
     "image-editor",
@@ -15,8 +14,5 @@
     "web-app"
   ],
   "author": "Phaton",
-  "license": "MIT",
-  "devDependencies": {
-    "serve": "^14.0.0"
-  }
+  "license": "MIT"
 }
