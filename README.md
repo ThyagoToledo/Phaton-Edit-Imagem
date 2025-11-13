@@ -1,48 +1,48 @@
-# Editor de Imagem Phaton 🎨
+# Editor de Imagem Phaton
 
 Editor de imagem profissional baseado em Canvas HTML5 com funcionalidades avançadas de processamento de imagem.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-### 🎯 Remoção de Fundo
+### Remoção de Fundo
 - **Remoção Automática**: Detecta e remove automaticamente cores de fundo
 - **Remoção Manual**: Clique para remover cores específicas do fundo
 - **Algoritmo Inteligente**: Proteção de detalhes e bordas suaves
 
-### 🛠️ Ferramentas de Retoque
+### Ferramentas de Retoque
 - **Varinha Mágica**: Remoção de áreas por tolerância de cor
 - **Tolerância Ajustável**: Controle preciso da seleção
 
-### ✨ Finalização Profissional
+### Finalização Profissional
 - **Melhoria de Nitidez**: Algoritmo de convolução para nitidez
 - **Polimento HD**: Filtro bilateral para suavização avançada
 - **Pixel Art**: Transformação em estilo pixel art
 - **Brilho e Contraste**: Ajustes de luminosidade e contraste
 
-### 📐 Controle de Resolução
+### Controle de Resolução
 - **Presets HD**: Full HD (1920x1080), HD (1280x720), Quadrado (1080x1080)
 - **Resolução Customizada**: Defina largura e altura personalizadas
 - **Travamento de Aspecto**: Mantenha proporções originais
 - **Preview em Tempo Real**: Visualize antes de aplicar
 
-### 🔍 Sistema de Zoom e Navegação
+### Sistema de Zoom e Navegação
 - **Zoom com Scroll**: Use a roda do mouse para zoom
 - **Pan**: Arraste para navegar pela imagem ampliada
 - **Zoom até 10x**: Edição em detalhes microscópicos
 
-### 💾 Gerenciamento de Estado
+### Gerenciamento de Estado
 - **Histórico de Ações**: Desfazer operações (Ctrl+Z)
 - **Reset Completo**: Voltar à imagem original
 - **Download Personalizado**: Salvar com nome customizado
 
-## 🎨 Interface
+## Interface
 
 - **Design Responsivo**: Funciona em desktop e dispositivos móveis
 - **Tailwind CSS**: Interface moderna e limpa
 - **Feedback Visual**: Tooltips e indicadores de progresso
 - **Múltiplos Modos**: Alternância fácil entre ferramentas
 
-## 🔧 Tecnologias
+## Tecnologias
 
 - **HTML5 Canvas**: Processamento de imagem nativo
 - **JavaScript Puro**: Sem dependências externas
@@ -53,15 +53,15 @@ Editor de imagem profissional baseado em Canvas HTML5 com funcionalidades avanç
   - Filtros de convolução
   - Processamento bilateral
 
-## 📱 Compatibilidade
+## Compatibilidade
 
-- ✅ Chrome/Chromium
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Dispositivos móveis (iOS/Android)
+- Chrome/Chromium
+- Firefox
+- Safari
+- Edge
+- Dispositivos móveis (iOS/Android)
 
-## 🚀 Deploy
+## Deploy
 
 Este projeto está configurado para deploy no Vercel:
 
@@ -69,7 +69,7 @@ Este projeto está configurado para deploy no Vercel:
 2. Conecte o repositório ao Vercel
 3. Deploy automático!
 
-## 📝 Como Usar
+## Como Usar
 
 1. **Carregar Imagem**: Clique em "Carregar Imagem" e selecione seu arquivo
 2. **Remoção de Fundo**: Use "Clique no Fundo" ou "Automático"
@@ -78,7 +78,7 @@ Este projeto está configurado para deploy no Vercel:
 5. **Resolução**: Defina o tamanho final
 6. **Download**: Salve sua imagem editada
 
-## ⚡ Performance
+## Performance
 
 - Processamento otimizado com Web Workers simulados
 - Algoritmos de complexidade reduzida
@@ -87,4 +87,4 @@ Este projeto está configurado para deploy no Vercel:
 
 ---
 
-Desenvolvido com ❤️ para edição profissional de imagens na web.
+Desenvolvido com amor para edição profissional de imagens na web.
