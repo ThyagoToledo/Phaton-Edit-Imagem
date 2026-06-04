@@ -19,19 +19,19 @@
 
 ## Índice de Tópicos
 
-* [1] Sobre o Projeto
-* [2] Tecnologias Utilizadas
-* [3] Funcionalidades de Destaque
-* [4] Interface do Usuário
-* [5] Compatibilidade
-* [6] Como Usar
-* [7] Deploy no Vercel
-* [8] Performance e Otimização
-* [9] Autor
+* [Sobre o Projeto](#sobre-o-projeto)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Funcionalidades de Destaque](#funcionalidades-de-destaque)
+* [Interface do Usuário](#interface-do-usuário)
+* [Compatibilidade](#compatibilidade)
+* [Como Usar](#como-usar)
+* [Deploy no Vercel](#deploy-no-vercel)
+* [Performance e Otimização](#performance-e-otimização)
+* [Autor](#autor)
 
 ---
 
-## [1] Sobre o Projeto
+## Sobre o Projeto
 
 O **Phaton** é um editor de imagem profissional web projetado para rodar inteiramente no lado do cliente (client-side). Ele permite que designers e usuários finais realizem edições de imagens, remoções de fundo e manipulação de pixels diretamente em seus navegadores, sem a necessidade de baixar softwares pesados ou realizar upload de imagens para servidores remotos, o que garante máxima privacidade de dados e velocidade de execução.
 
@@ -39,7 +39,7 @@ O projeto utiliza a API nativa do Canvas HTML5 para manipular o mapa de pixels d
 
 ---
 
-## [2] Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **HTML5 Canvas**: Utilizado para renderizar a imagem, processar as matrizes de pixels em tempo real e desenhar os overlays de seleção/panning.
 * **JavaScript (ES6+)**: Lógica principal para cálculo de tolerância de cores, algoritmos de preenchimento (flood fill), filtros de nitidez por convolução de matrizes e filtros bilaterais para suavização de pele.
@@ -48,7 +48,7 @@ O projeto utiliza a API nativa do Canvas HTML5 para manipular o mapa de pixels d
 
 ---
 
-## [3] Funcionalidades de Destaque
+## Funcionalidades de Destaque
 
 ### Remoção de Fundo
 * **Remoção Automática**: Um clique analisa a cor do pixel do canto superior esquerdo e remove todas as cores correspondentes ao fundo da imagem.
@@ -78,7 +78,7 @@ O projeto utiliza a API nativa do Canvas HTML5 para manipular o mapa de pixels d
 
 ---
 
-## [4] Interface do Usuário
+## Interface do Usuário
 
 * **Layout Dark Premium**: Cores sóbrias e contraste refinado para evitar fadiga ocular durante edições longas.
 * **Totalmente Responsiva**: Ajustes perfeitos de interface para notebooks, desktops ou dispositivos móveis.
@@ -86,7 +86,7 @@ O projeto utiliza a API nativa do Canvas HTML5 para manipular o mapa de pixels d
 
 ---
 
-## [5] Compatibilidade
+## Compatibilidade
 
 O editor Phaton foi homologado e opera de maneira consistente nos seguintes ambientes:
 * Chrome e navegadores baseados em Chromium (Edge, Opera, Vivaldi, Brave)
@@ -96,18 +96,18 @@ O editor Phaton foi homologado e opera de maneira consistente nos seguintes ambi
 
 ---
 
-## [6] Como Usar
+## Como Usar
 
-* **[1]** Clique no botão **Carregar Imagem** na barra superior e selecione o arquivo local da sua máquina.
-* **[2]** Utilize a roda do mouse para aproximar ou afastar o zoom na área que deseja editar. Pressione e arraste para mover-se pela tela ampliada.
-* **[3]** Escolha entre a remoção de fundo automática ou clique diretamente nas áreas com a Varinha Mágica, regulando a barra de **Tolerância** para refinar o resultado.
-* **[4]** Utilize os filtros de nitidez, polimento ou pixel art e faça os ajustes necessários na luminosidade e contraste.
-* **[5]** Escolha uma resolução nas opções de preset ou ajuste de forma manual (mantendo a proporção de aspecto se desejar).
-* **[6]** Clique em **Download**, dê um nome ao seu arquivo e exporte a imagem em formato PNG com fundo transparente.
+1. Clique no botão **Carregar Imagem** na barra superior e selecione o arquivo local da sua máquina.
+2. Utilize a roda do mouse para aproximar ou afastar o zoom na área que deseja editar. Pressione e arraste para mover-se pela tela ampliada.
+3. Escolha entre a remoção de fundo automática ou clique diretamente nas áreas com a Varinha Mágica, regulando a barra de **Tolerância** para refinar o resultado.
+4. Utilize os filtros de nitidez, polimento ou pixel art e faça os ajustes necessários na luminosidade e contraste.
+5. Escolha uma resolução nas opções de preset ou ajuste de forma manual (mantendo a proporção de aspecto se desejar).
+6. Clique em **Download**, dê um nome ao seu arquivo e exporte a imagem em formato PNG com fundo transparente.
 
 ---
 
-## [7] Deploy no Vercel
+## Deploy no Vercel
 
 O projeto conta com o arquivo [vercel.json](vercel.json) configurado na raiz para garantir implantação estática imediata:
 1. Faça o envio da pasta local para o seu repositório remoto no GitHub.
@@ -117,14 +117,14 @@ O projeto conta com o arquivo [vercel.json](vercel.json) configurado na raiz par
 
 ---
 
-## [8] Performance e Otimização
+## Performance e Otimização
 
 * **Manipulação de Buffer**: Algoritmos otimizados que iteram sobre arrays de bytes unidimensionais de forma linear, garantindo que o processamento do Canvas seja extremamente rápido.
 * **Gerenciamento Eficiente de RAM**: Histórico inteligente projetado para limitar a quantidade de estados em cache, prevenindo lentidão e estouro de memória no navegador.
 
 ---
 
-## [9] Autor
+## Autor
 
 <table>
   <tr>
